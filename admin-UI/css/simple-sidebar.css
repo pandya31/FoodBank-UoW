@@ -1,0 +1,105 @@
+  /*!
+ * Start Bootstrap - Simple Sidebar (https://startbootstrap.com/template-overviews/simple-sidebar)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-simple-sidebar/blob/master/LICENSE)
+ */
+body {
+  overflow-x: hidden;
+}
+list-group .yes{
+  background: lightblue;
+}
+#sidebar-wrapper {
+  min-height: 100vh;
+  margin-left: -15rem;
+  -webkit-transition: margin .25s ease-out;
+  -moz-transition: margin .25s ease-out;
+  -o-transition: margin .25s ease-out;
+  transition: margin .25s ease-out;
+  background: #4f5962;
+
+
+}
+#sidebar-wrapper .sidebar-heading {
+
+  padding: 0.875rem 1.25rem;
+  font-size: 1.2rem;
+
+}
+
+#sidebar-wrapper .sidebar-heading .list-group-item{
+  font-size: 90px;
+}
+
+
+#sidebar-wrapper .list-group {
+  width: 15rem;
+}
+
+#page-content-wrapper {
+  min-width: 100vw;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+  margin-left: 0;
+}
+
+@media (min-width: 768px) {
+  #sidebar-wrapper {
+    margin-left: 0;
+  }
+.malav{
+  font-size:50px;
+  height:234px;
+  background-color: #007bff;
+
+
+
+}
+.henil{
+  font-size: 50px;
+  height:234px;
+  top:0px;
+  background-color: #ffc107;
+
+}
+.h{
+  font-size:50px;
+  height:234px;
+  margin-left:0px;
+  left:0px;
+  background-color: #28a745;
+}
+.k{
+  font-size:50px;
+  height:234px;
+  top:0px;
+  background-color: #dc3545;
+}
+  #page-content-wrapper {
+    min-width: 0;
+    width: 100%;
+  }
+
+  #wrapper.toggled #sidebar-wrapper {
+    margin-left: -15rem;
+      background-color: #4f5962;
+  }
+
+  .list-group > .list-group-item-action {
+    background: #f1f1f1;
+    color: black;
+    font-size:15px;
+  }
+
+  .list-group > .list-group-item-action:hover{
+    background-color: #555;
+    color: white;
+  }
+  .list-group > .list-group-item-action >a:hover:not(.active){
+    background-color: #555;
+    color: white;
+  }
+  .list-group > .list-group-item-action:active{
+    background-color:  #4CAF50;
+  }
